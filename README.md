@@ -7,10 +7,9 @@ https://game-hang-man-app.netlify.app/
 
 ![image](https://github.com/designs-by-kate/hangman/assets/146155569/77b1c814-26af-4e1b-85b0-6a640a0fd2a1)
 
-![image](https://github.com/designs-by-kate/hangman/assets/146155569/c1865ce6-aab6-4433-9661-4fa8930f31cd)
-![image](https://github.com/designs-by-kate/hangman/assets/146155569/15e4234d-e200-4a6e-b891-b5531114dfb6)
-![image](https://github.com/designs-by-kate/hangman/assets/146155569/6983c8ca-fe77-4ad1-aad3-88194140c25b)
-
+![image](https://github.com/designs-by-kate/hangman/assets/146155569/6e6034b5-60ca-4ffa-9f2a-cd4aaf223285)
+![image](https://github.com/designs-by-kate/hangman/assets/146155569/f3395520-aad4-41b7-a00d-ef30ecd064ab)
+![image](https://github.com/designs-by-kate/hangman/assets/146155569/4684d3a0-c5d4-49a4-b432-a69f906746a7)
 
 
 ## Table of Contents
