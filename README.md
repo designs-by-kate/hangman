@@ -1,7 +1,17 @@
+https://game-hang-man-app.netlify.app/
+
 # React Hangman Game with TypeScript
 ![License Badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
 ### This project is a hangman game implemented in React with TypeScript, originally based on the tutorial provided by WebDevSimplified. The primary goal of this project was to learn TypeScript while customizing the styling of the hangman game.
+
+![image](https://github.com/designs-by-kate/hangman/assets/146155569/77b1c814-26af-4e1b-85b0-6a640a0fd2a1)
+
+![image](https://github.com/designs-by-kate/hangman/assets/146155569/c1865ce6-aab6-4433-9661-4fa8930f31cd)
+![image](https://github.com/designs-by-kate/hangman/assets/146155569/15e4234d-e200-4a6e-b891-b5531114dfb6)
+![image](https://github.com/designs-by-kate/hangman/assets/146155569/6983c8ca-fe77-4ad1-aad3-88194140c25b)
+
+
 
 ## Table of Contents
 
