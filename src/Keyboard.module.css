@@ -1,6 +1,13 @@
+.keyboardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+  gap: 0.5rem;
+}
+
 .btn {
   width: 100%;
   border: 3px solid black;
+  border-radius: 50%;
   background: rgba(255, 255, 255, 0.5);
   aspect-ratio: 1 / 1;
   font-size: 2.5rem;

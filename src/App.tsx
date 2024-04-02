@@ -3,7 +3,7 @@ import { HangmanDrawing } from "./HangmanDrawing";
 import { HangmanWord } from "./HangmanWord";
 import { Keyboard } from "./Keyboard";
 import words from "./wordList.json";
-import backgroundImage from "./assets/images/bg.jpeg";
+import style from "./App.module.css"
 
 function getWord() {
   return words[Math.floor(Math.random() * words.length)];
@@ -65,43 +65,20 @@ function App() {
   }, []);
 
   return (
-    <div
-      style={{
-        backgroundImage: `url(${backgroundImage})`,
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        maxWidth: "1000px",
-        display: "flex",
-        flexDirection: "column",
-        gap: "2rem",
-        margin: "0 auto",
-        alignItems: "center",
-        padding: "100px",
-      }}
-    >
-    <div
-      style={{
-        width: "100%",
-        minHeight: "100px",
-        padding: "1rem",
-        borderRadius: "20px",
-        backgroundColor: "rgba(255, 255, 255, 0.7)",
-        textAlign: "center",
-        fontSize: "2rem",
-      }}
-    >
-      <div style={{ color: isWinner ? "red" : isLoser ? "green" : "black", fontSize: "4rem" }}>
-        {isWinner && "Winner!"}
-        {isLoser && "Nice Try"}
+    <div className={style.appContainer} >
+      <div className={style.title} >
+        <div style={{ color: isWinner ? "red" : isLoser ? "green" : "black", fontSize: "4rem" }}>
+          {isWinner && "Winner!"}
+          {isLoser && "Nice Try"}
+        </div>
+        <div>{"Refresh To Try Again"}</div>
       </div>
-      <div>{"Refresh To Try Again"}</div>
-    </div>
-      <HangmanDrawing numberOfGuesses={incorrectLetters.length} />
       <HangmanWord
         reveal={isLoser}
         guessedLetters={guessedLetters}
         wordToGuess={wordToGuess}
       />
+      <HangmanDrawing numberOfGuesses={incorrectLetters.length} />
       <div style={{ alignSelf: "stretch" }}>
         <Keyboard
           disabled={isWinner || isLoser}
