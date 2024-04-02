@@ -1,8 +1,9 @@
 # React Hangman Game with TypeScript
+![License Badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
 ### This project is a hangman game implemented in React with TypeScript, originally based on the tutorial provided by WebDevSimplified. The primary goal of this project was to learn TypeScript while customizing the styling of the hangman game.
 
-# Navigation
+## Table of Contents
 
 - [Description](#description)
 - [Features](#features)
