@@ -68,7 +68,11 @@
 .ele1 {
     height: 50px;
     width: 10px;
-    background: black;
+    background-image: url(./assets/images/wood.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 2px rgba(25, 8, 2, 0.774);
+    border-left: solid 2px rgba(97, 35, 14, 0.726);
     position: absolute;
     top: 0;
     right: 0;
@@ -77,19 +81,190 @@
 .ele2 {
     height: 10px;
     width: 200px;
-    background: black;
+    background-image: url(./assets/images/wood.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 2px rgba(97, 35, 14, 0.726);
+    border-top: solid 2px rgba(25, 8, 2, 0.774);
+    border-left: solid 2px rgba(25, 8, 2, 0.774);
     margin-left: 120px;
 }
 
 .ele3 {
     height: 400px;
     width: 10px;
-    background: black;
+    background-image: url(./assets/images/wood.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 2px rgba(97, 35, 14, 0.726);
+    border-left: solid 2px rgba(25, 8, 2, 0.774);
     margin-left: 120px;
 }
 
 .ele4 {
     height: 10px;
     width: 250px;
-    background: black;
+    background-image: url(./assets/images/wood.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 2px rgba(97, 35, 14, 0.726);
+    border-bottom: solid 2px rgba(25, 8, 2, 0.774);
+    border-left: solid 2px rgba(25, 8, 2, 0.774);
+}
+@media screen and (max-width: 1500px) {
+    .head {
+        width: 35px;
+        height: 35px;
+        border-radius: 100%;
+        border: 10px solid black;
+        position: absolute;
+        top: 25px;
+        right: -22px;
+    }
+    
+    .body {
+        width: 10px;
+        height: 50px;
+        top: 75px;
+        right: 0;
+    }
+    
+    .rightArm {
+        width: 50px;
+        height: 10px;
+        top: 90px;
+        right: -50px;
+        rotate: -30deg;
+        transform-origin: left bottom;
+    }
+    
+    .leftArm {
+        width: 50px;
+        height: 10px;
+        top: 90px;
+        right: 5px;
+        rotate: 30deg;
+        transform-origin: right bottom;
+    }
+    
+    .rightLeg {
+        width: 50px;
+        height: 10px;
+        top: 115px;
+        right: -40px;
+        rotate: 45deg;
+        transform-origin: left bottom;
+    }
+    
+    .leftLeg {
+        width: 50px;
+        height: 10px;
+        top: 115px;
+        right: 0;
+        rotate: -45deg;
+        transform-origin: right bottom;
+    }
+    
+    .ele1 {
+        height: 35px;
+        width: 10px;
+        top: 0;
+        right: 0;
+    }
+    
+    .ele2 {
+        height: 10px;
+        width: 120px;
+        margin-left: 70px;
+    }
+    
+    .ele3 {
+        height: 250px;
+        width: 10px;
+        margin-left: 70px;
+    }
+    
+    .ele4 {
+        height: 10px;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .head {
+        width: 25px;
+        height: 25px;
+        border-radius: 100%;
+        border: 5px solid black;
+        position: absolute;
+        top: 25px;
+        right: -15px;
+    }
+    
+    .body {
+        width: 5px;
+        height: 50px;
+        top: 60px;
+        right: 0;
+    }
+    
+    .rightArm {
+        width: 50px;
+        height: 5px;
+        top: 75px;
+        right: -50px;
+        rotate: -30deg;
+        transform-origin: left bottom;
+    }
+    
+    .leftArm {
+        width: 50px;
+        height: 5px;
+        top: 75px;
+        right: 5px;
+        rotate: 30deg;
+        transform-origin: right bottom;
+    }
+    
+    .rightLeg {
+        width: 50px;
+        height: 5px;
+        top: 105px;
+        right: -45px;
+        rotate: 60deg;
+        transform-origin: left bottom;
+    }
+    
+    .leftLeg {
+        width: 50px;
+        height: 5px;
+        top: 105px;
+        right: 0;
+        rotate: -45deg;
+        transform-origin: right bottom;
+    }
+    
+    .ele1 {
+        height: 25px;
+        width: 5px;
+        top: 0;
+        right: 0;
+    }
+    
+    .ele2 {
+        height: 5px;
+        width: 100px;
+        margin-left: 60px;
+    }
+    
+    .ele3 {
+        height: 200px;
+        width: 5px;
+        margin-left: 60px;
+    }
+    
+    .ele4 {
+        height: 5px;
+        width: 125px;
+    }
 }

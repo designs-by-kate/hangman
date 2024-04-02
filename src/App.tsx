@@ -3,7 +3,9 @@ import { HangmanDrawing } from "./HangmanDrawing";
 import { HangmanWord } from "./HangmanWord";
 import { Keyboard } from "./Keyboard";
 import words from "./wordList.json";
-import style from "./App.module.css"
+import style from "./App.module.css";
+import leftImg from "./assets/images/horseshoe.png"
+import rightImg from "./assets/images/cactusLarge.png"
 
 function getWord() {
   return words[Math.floor(Math.random() * words.length)];
@@ -66,12 +68,18 @@ function App() {
 
   return (
     <div className={style.appContainer} >
-      <div className={style.title} >
-        <div style={{ color: isWinner ? "red" : isLoser ? "green" : "black", fontSize: "4rem" }}>
-          {isWinner && "Winner!"}
-          {isLoser && "Nice Try"}
+      <div className={style.heading}>
+        <img src={leftImg} />
+        <div className={style.title} >
+          <div style={{ color: isWinner ? "red" : isLoser ? "green" : "black"}}>
+            <h1>
+            {isWinner && "Winner!"}
+            {isLoser && "Nice Try"}
+            </h1>
+          </div>
+          <div><h2>{"Refresh To Try Again"}</h2></div>
         </div>
-        <div>{"Refresh To Try Again"}</div>
+        <img src={rightImg} />
       </div>
       <HangmanWord
         reveal={isLoser}

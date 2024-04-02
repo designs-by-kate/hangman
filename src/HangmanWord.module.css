@@ -11,3 +11,23 @@
     border-bottom: 0.1em solid black;
     background: rgba(255, 255, 255, 0.7);
 }
+
+@media screen and (max-width: 1500px) {
+    .wordContainer {
+        font-size: 5rem;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .wordContainer {
+        display: flex;
+        gap: 5px;
+        font-size: 3rem;
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .wordContainer {
+        padding: 20px;
+    }
+}
